@@ -49,3 +49,4 @@ ISR 與主迴圈分工：
 待機狀態 (IDLE)：持續計算時間，若滿 10 秒則自動切換至 ALERT 狀態，點亮紅燈、熄滅綠燈並啟動蜂鳴器 PWM。
 提醒狀態 (ALERT)：持續輪詢檢查 buttonPressed 旗標；一旦偵測到為 1，即刻關閉蜂鳴器、恢復綠燈、重置 10 秒計時並切回 IDLE 狀態。
 ## 8. 實作照片與注意事項
+<img width="3213" height="5712" alt="1CAF7E07-5CAB-4FDC-9ACE-144CC534A6EC" src="https://github.com/user-attachments/assets/1f1c17b1-16d9-4168-8339-2904ef266940" />
